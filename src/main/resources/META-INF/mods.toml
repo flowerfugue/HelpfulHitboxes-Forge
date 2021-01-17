@@ -1,7 +1,7 @@
 modLoader="javafml" #mandatory
 loaderVersion="[35,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
-issueTrackerURL="https://github.com/abigailfails/Modicum/issues" #optional
-license="https://github.com/abigailfails/Modicum/blob/master/LICENSE.txt"
+issueTrackerURL="https://github.com/abigailfails/HelpfulHitboxes/issues" #optional
+license="https://github.com/abigailfails/HelpfulHitboxes/blob/main/LICENSE.txt"
 
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]]
