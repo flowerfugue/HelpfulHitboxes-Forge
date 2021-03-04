@@ -15,14 +15,14 @@ authors="abigailfails"
 description='''
 Makes the hitbox of certain small blocks larger under specific circumstances, to help with building.
 '''
-[[dependencies.modicum]]
+[[dependencies.helpfulhitboxes]]
     modId="forge"
     mandatory=true
     versionRange="[35,)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.modicum]]
+[[dependencies.helpfulhitboxes]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.3,1.17)"
