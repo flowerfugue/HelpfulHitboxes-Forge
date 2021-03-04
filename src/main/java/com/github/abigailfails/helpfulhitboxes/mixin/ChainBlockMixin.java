@@ -15,11 +15,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(ChainBlock.class)
-public abstract class ChainBlockMixin extends RotatedPillarBlock implements IWaterLoggable {
-    public ChainBlockMixin(Properties properties) {
-        super(properties);
-    }
-
+public abstract class ChainBlockMixin {
     @Inject(method = "getShape", at = @At("HEAD"), cancellable = true)
     protected void checkHeldBlock(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context, CallbackInfoReturnable<VoxelShape> cir) {
         if (context.hasItem(state.getBlock().asItem())) {
